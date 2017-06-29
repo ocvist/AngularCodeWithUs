@@ -12,7 +12,7 @@ export class CustomerDetailComponent {
   showAddress: true;
   @Input() customer = Customer;
   @Output() shift = new EventEmitter<number>();
-
+//test
   left() {
     this.shift.emit(-1);
   }
